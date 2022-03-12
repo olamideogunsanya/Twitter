@@ -65,7 +65,7 @@ class HomeTableViewController: UITableViewController {
         UserDefaults.standard.set(false , forKey: "userLoggedIn")
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt gindexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tweetCell", for: indexPath) as! TweetCell
         
         let user = tweetArray[indexPath.row]["user"] as! NSDictionary
