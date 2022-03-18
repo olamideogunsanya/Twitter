@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Twitter
 //
-//  Created by Dan on 1/3/19.
+//  Created by Ola on 3/18/22.
 //  Copyright © 2019 Dan. All rights reserved.
 //
 
